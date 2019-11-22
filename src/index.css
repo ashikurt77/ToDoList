@@ -5,6 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+}
+
+.btn.btn-outline-secondary {
+  background: black;
+  border: 0px solid black;
+  color: white;
+  transition: all 0.5s;
+}
+.btn.btn-outline-secondary:hover {
+  background: yellowgreen;
+}
+
+ul {
+  padding-bottom: 10px;
+}
+
+ul:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+li {
+  transition: all 0.5s;
+}
+li:hover {
+  background: crimson;
+  color: white;
+}
+
+h1 {
+  padding-bottom: 40px;
+  color: aliceblue;
 }
 
 code {
